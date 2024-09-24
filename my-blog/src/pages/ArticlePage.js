@@ -4,7 +4,7 @@ import CommentList from "../components/CommentsList";
 import addCommentForm from "../components/addCommentForm";
 import useUser from "../hooks/useUser";
 import articles from "./article-content";
-import { useState, useEffect } from "react"; //add state hook and to load data fron server (for logic)  to component
+import { useState, useEffect } from "react";
 import axios from "axios";
 import AddCommentForm from "../components/addCommentForm";
 
